@@ -20,3 +20,5 @@ Route::get('/mostrar_notas', 'NotasController@mostrarNotas');
 Route::post('/guardar_nota', 'NotasController@saveNota');
 Route::post('/terminar_nota', 'NotasController@terminarNota');
 Route::post('/eliminar_nota', 'NotasController@deleteNota');
+
+Route::get('/sistemas','SistemasController');
